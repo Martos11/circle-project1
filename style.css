@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-block-start: 100px;
+  /* align-items: center; */
+}
+.result-item1 {
+  /* background-color: hsla(256, 72%, 46%, 1); */
+  background-color: hsl(241, 81%, 54%);
+  width: 280px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 30px;
+  color: white;
+  /* margin-block: 30px; */
+}
+.score {
+  font-size: 30px;
+  /* border: 2px solid #000; */
+  border-radius: 100%;
+  padding: 70px;
+  margin-block: 30px;
+  background-color: hsla(256, 72%, 46%, 1);
+  color: white;
+}
+.result-item2 {
+  /* border: 2px solid #000; */
+  border-radius: 30px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(83, 74, 74, 0.4);
+  /* color: hsl(0, 0%, 100%); */
+  /* padding: 40px; */
+}
+.percent {
+  color: black;
+}
+.summary-items {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 30px;
+  padding: 15px 25px;
+  background-color: rgb(235, 88, 235, 0.3);
+  border-radius: 100px;
+}
+#reaction-color {
+  background-color: rgba(248, 9, 45, 0.1);
+  color: hsl(0, 100%, 67%);
+  text-align: center;
+  /* background-color: rgba(226, 78, 226, 0.3); */
+}
+#memory-color {
+  background-color: rgb(245, 214, 224, 0.3);
+  color: hsl(39, 100%, 56%);
+}
+#verbal-color {
+  background-color: rgb(155, 199, 66, 0.2);
+  color: hsl(166, 100%, 37%);
+  /* font-weight: 700px; */
+}
+#visual-color {
+  background-color: hsl(234, 85%, 45%, 0.1);
+  color: hsl(234, 85%, 45%);
+}
+#summary-button {
+  padding: 15px 90px;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 100px;
+  border: none;
+}
+#summary-button a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 575px) {
+  .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-block-start: 100px; */
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    /* align-items: center; */
+  }
+}
+
+@media only screen and (max-width: 75px) {
+  .result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-block-start: 100px; */
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    /* align-items: center; */
+  }
+}
